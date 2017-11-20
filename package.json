@@ -1,0 +1,14 @@
+{
+  "name": "hugo-bootstrap-starter-template",
+  "version": "1.0.0",
+  "description": "Hugo theme based on the Bootstrap starter template project",
+  "main": "index.js",
+  "repository": "git@github.com:marcanuy/hugo-bootstrap-starter-template.git",
+  "author": "Marcelo Canina <me@marcanuy.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "4.0.0-beta.2",
+    "jquery": "1.9.1",
+    "popper.js": "^1.12.3"
+  }
+}
