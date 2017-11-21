@@ -16,12 +16,15 @@ Hugo site with:
 **Table of Contents**
 
 - [Hugo bootstrap starter template](#hugo-bootstrap-starter-template)
-    - [Features](#features)
-        - [Bootstrap variables customization](#bootstrap-variables-customization)
-        - [Easy update](#easy-update)
-    - [Installation](#installation)
-    - [References](#references)
-    - [Screenshot](#screenshot)
+- [Features](#features)
+    - [Bootstrap variables customization](#bootstrap-variables-customization)
+    - [Easy update](#easy-update)
+- [Installation](#installation)
+    - [Theme](#theme)
+    - [Deps](#deps)
+    - [Build css](#build-css)
+- [References](#references)
+- [Screenshot](#screenshot)
 
 <!-- markdown-toc end -->
 
