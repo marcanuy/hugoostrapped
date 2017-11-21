@@ -17,3 +17,7 @@ build: css-compile build-jquery build-popper build-bootstrapjs
 	$(HUGO) --source=exampleSite --themesDir=../..
 serve: css-compile build-jquery build-popper build-bootstrapjs
 	$(HUGO) server --source=exampleSite --themesDir=../..
+
+######################
+generate-githubpages:
+	$(HUGO) --source=exampleSite --themesDir=../.. && mv exampleSite/public docs && touch docs/.nojekyll
