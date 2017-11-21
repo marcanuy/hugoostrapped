@@ -1,5 +1,5 @@
-Hugo bootstrap starter template
-======================================
+Hugo bootstrap examples theme
+====================================
 
 [Hugo](https://gohugo.io) [theme](https://gohugo.io/themes/) based on
 the [Bootstrap starter
@@ -51,8 +51,8 @@ our custom design:
 	 // Bootstrap and its default variables
 	 @import "../node_modules/bootstrap/scss/bootstrap";
 
-That file will be processed into `static/css/style.css` as part of a
-**yarn build** (or *npm build*) task.
+That file will be processed into `static/css/style.css` as part of
+`make build` recipe.
 
 More on Bootstrap 4 customization: <https://getbootstrap.com/docs/4.0/getting-started/theming/#variable-defaults>.
 
@@ -85,12 +85,12 @@ In order to update all the existing submodules from their upstreams, you can eit
 
 ## Deps
 
-Run `yarn install` or `npm install` to install theme dependencies
+Run `make install` to install theme dependencies. That will run `yarn install` (or `npm install`).
 
 ## Build css
 
-Run `yarn run build` or `npm run build` to generate CSS styles and
-copy the necessary Javascript libraries.
+Run `make build` to generate CSS styles and copy the necessary
+Javascript libraries.
 
 # References
 
