@@ -12,6 +12,8 @@ Hugo site with:
 - a clean setup and
 - the ability to customize [Bootstrap variables](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss).
 
+Example site: <https://marcanuy.github.io/hugo-bootstrap-examples-theme/>.
+
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
@@ -97,7 +99,3 @@ Javascript libraries.
 - [Bootstrap docs](https://getbootstrap.com/docs/4.0/)
 - [Hugo docs](https://gohugo.io/)
 - Installation instruction taken from [Hugo dimension theme](https://themes.gohugo.io/dimension)
-
-# Screenshot
-
-![screenshot](https://getbootstrap.com/docs/4.0/examples/screenshots/starter-template.jpg)
