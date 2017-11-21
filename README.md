@@ -7,17 +7,25 @@ template](https://getbootstrap.com/docs/4.0/examples/starter-template/)
 example.
 
 This theme focuses on offering a quick way to have Bootstrap in your
-Hugo sites with:
+Hugo site with:
 
-- a clean setup
-- allow [Bootstrap variables](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss) customization.
+- a clean setup and
+- the ability to customize [Bootstrap variables](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss).
+
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [Hugo bootstrap starter template](#hugo-bootstrap-starter-template)
+    - [Features](#features)
+        - [Bootstrap variables customization](#bootstrap-variables-customization)
+        - [Easy update](#easy-update)
+    - [Installation](#installation)
+    - [References](#references)
+    - [Screenshot](#screenshot)
+
+<!-- markdown-toc end -->
 
 ## Features
-
-### Easy update
-
-Bootstrap is a `package.json` dependency, it can easily be updated
-with `npm update` or `yarn update`.
 
 ### Bootstrap variables customization
 
@@ -44,6 +52,11 @@ That file will be processed into `static/css/style.css` as part of a
 **yarn build** (or *npm build*) task.
 
 More on Bootstrap 4 customization: <https://getbootstrap.com/docs/4.0/getting-started/theming/#variable-defaults>.
+
+### Easy update
+
+Bootstrap is a `package.json` dependency, it can easily be updated
+with `npm update` or `yarn update`.
 
 ## Installation
 
