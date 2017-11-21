@@ -1,14 +1,22 @@
 {
-  "name": "hugo-bootstrap-starter-template",
-  "version": "1.0.0",
-  "description": "Hugo theme based on the Bootstrap starter template project",
-  "main": "index.js",
-  "repository": "git@github.com:marcanuy/hugo-bootstrap-starter-template.git",
-  "author": "Marcelo Canina <me@marcanuy.com>",
-  "license": "MIT",
-  "dependencies": {
-    "bootstrap": "4.0.0-beta.2",
-    "jquery": "1.9.1",
-    "popper.js": "^1.12.3"
-  }
+    "name": "hugo-bootstrap-starter-template",
+    "version": "1.0.0",
+    "description": "Hugo theme based on the Bootstrap starter template project",
+    "main": "index.js",
+    "repository": "git@github.com:marcanuy/hugo-bootstrap-starter-template.git",
+    "author": "Marcelo Canina <me@marcanuy.com>",
+    "license": "MIT",
+    "dependencies": {
+	"bootstrap": "4.0.0-beta.2",
+	"jquery": "1.9.1",
+	"node-sass": "^4.7.2",
+	"popper.js": "^1.12.3"
+    },
+    "scripts": {
+	"css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/style.scss static/css/style.css",
+	"build:jquery": "cp node_modules/jquery/jquery.min.js static/js/vendor/",
+	"build:popper": "cp node_modules/popper.js/dist/popper.min.js static/js/vendor/",
+	"build:bootstrapjs": "cp node_modules/bootstrap/dist/js/bootstrap.min.js static/js/vendor/",
+	"build": "yarn run css-compile && yarn run build:jquery && yarn run build:popper"
+    }
 }
