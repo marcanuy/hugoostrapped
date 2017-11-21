@@ -6,18 +6,19 @@ the [Bootstrap starter
 template](https://getbootstrap.com/docs/4.0/examples/starter-template/)
 example with Bootstrap examples in the `exampleSite`.
 
-This theme focuses on offering a quick way to have Bootstrap in your
+This theme implements <https://getbootstrap.com/docs/4.0/examples/> in
+Hugo, it focus on offering a quick way to have Bootstrap in your
 Hugo site with:
 
 - a clean setup and
 - the ability to customize [Bootstrap variables](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss).
 
-Example site: <https://marcanuy.github.io/hugo-bootstrap-examples-theme/>.
+<https://marcanuy.github.io/hugo-bootstrap-examples-theme/>.
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
-- [Hugo bootstrap starter template](#hugo-bootstrap-starter-template)
+- [Hugo bootstrap examples theme](#hugo-bootstrap-examples-theme)
 - [Features](#features)
     - [Bootstrap variables customization](#bootstrap-variables-customization)
     - [Easy update](#easy-update)
@@ -26,7 +27,6 @@ Example site: <https://marcanuy.github.io/hugo-bootstrap-examples-theme/>.
     - [Deps](#deps)
     - [Build css](#build-css)
 - [References](#references)
-- [Screenshot](#screenshot)
 
 <!-- markdown-toc end -->
 
