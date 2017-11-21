@@ -25,9 +25,9 @@ Hugo site with:
 
 <!-- markdown-toc end -->
 
-## Features
+# Features
 
-### Bootstrap variables customization
+## Bootstrap variables customization
 
 > Every Sass variable in Bootstrap 4 includes the !default flag
 > allowing you to override the variable’s default value in your own
@@ -53,12 +53,14 @@ That file will be processed into `static/css/style.css` as part of a
 
 More on Bootstrap 4 customization: <https://getbootstrap.com/docs/4.0/getting-started/theming/#variable-defaults>.
 
-### Easy update
+## Easy update
 
 Bootstrap is a `package.json` dependency, it can easily be updated
 with `npm update` or `yarn update`.
 
-## Installation
+# Installation
+
+## Theme
 
 Run the following commands inside your Hugo site folder:
 
@@ -78,12 +80,21 @@ In order to update all the existing submodules from their upstreams, you can eit
 
     $ git submodule foreach git pull
 
-## References
+## Deps
+
+Run `yarn install` or `npm install` to install theme dependencies
+
+## Build css
+
+Run `yarn run build` or `npm run build` to generate CSS styles and
+copy the necessary Javascript libraries.
+
+# References
 
 - [Bootstrap docs](https://getbootstrap.com/docs/4.0/)
 - [Hugo docs](https://gohugo.io/)
 - Installation instruction taken from [Hugo dimension theme](https://themes.gohugo.io/dimension)
 
-## Screenshot
+# Screenshot
 
 ![screenshot](https://getbootstrap.com/docs/4.0/examples/screenshots/starter-template.jpg)
