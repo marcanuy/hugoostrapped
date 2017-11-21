@@ -6,8 +6,11 @@ the [Bootstrap starter
 template](https://getbootstrap.com/docs/4.0/examples/starter-template/)
 example.
 
-Just the needed code to use Bootstrap in Hugo with a clean
-setup to update and customize its variables.
+This theme focuses on offering a quick way to have Bootstrap in your
+Hugo sites with:
+
+- a clean setup
+- allow [Bootstrap variables](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss) customization.
 
 ## Features
 
@@ -25,8 +28,10 @@ with `npm update` or `yarn update`.
 > flag. If a variable has already been assigned, then it won’t be
 > re-assigned by the default values in Bootstrap.
 
-So in `src/style.scss` we can customize Bootstrap variables and then
-import Bootstrap which will incorporate our custom design:
+So in `src/style.scss` we can customize any Bootstrap
+[variable](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss)
+and then import the complete Bootstrap styles which will incorporate
+our custom design:
 
 	 // Your variable overrides
 	 $body-bg: #000;
@@ -35,8 +40,8 @@ import Bootstrap which will incorporate our custom design:
 	 // Bootstrap and its default variables
 	 @import "../node_modules/bootstrap/scss/bootstrap";
 
-That file will be copied to `static/css/style.css` as part of a **yarn
-build** (or *npm build*) task.
+That file will be processed into `static/css/style.css` as part of a
+**yarn build** (or *npm build*) task.
 
 More on Bootstrap 4 customization: <https://getbootstrap.com/docs/4.0/getting-started/theming/#variable-defaults>.
 
