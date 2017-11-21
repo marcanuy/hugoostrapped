@@ -34,6 +34,10 @@ Hugo site with:
 
 ## Bootstrap variables customization
 
+Customization ca be done in two steps:
+
+1. override variables:
+
 > Every Sass variable in Bootstrap 4 includes the !default flag
 > allowing you to override the variable’s default value in your own
 > Sass without modifying Bootstrap’s source code. Copy and paste
@@ -53,8 +57,10 @@ our custom design:
 	 // Bootstrap and its default variables
 	 @import "../node_modules/bootstrap/scss/bootstrap";
 
-That file will be processed into `static/css/style.css` as part of
-`make build` recipe.
+2. Regenerate stylesheet:
+
+The above file will be processed with `node-sass` and generate
+`static/css/style.css` after executing the `make build` recipe.
 
 More on Bootstrap 4 customization: <https://getbootstrap.com/docs/4.0/getting-started/theming/#variable-defaults>.
 
