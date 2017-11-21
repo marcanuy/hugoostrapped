@@ -4,7 +4,7 @@ Hugo bootstrap examples theme
 [Hugo](https://gohugo.io) [theme](https://gohugo.io/themes/) based on
 the [Bootstrap starter
 template](https://getbootstrap.com/docs/4.0/examples/starter-template/)
-example.
+example with Bootstrap examples in the `exampleSite`.
 
 This theme focuses on offering a quick way to have Bootstrap in your
 Hugo site with:

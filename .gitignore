@@ -1,2 +1,5 @@
 node_modules/
 vendor/
+public/
+static/css/style.css
+static/css/style.css.map
