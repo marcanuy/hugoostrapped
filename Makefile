@@ -20,4 +20,4 @@ serve: css-compile build-jquery build-popper build-bootstrapjs
 
 ######################
 generate-githubpages:
-	rm -fr docs && $(HUGO) --baseURL https://marcanuy.github.io/hugo-bootstrap-examples-theme/ --source=exampleSite --themesDir=../.. && mv exampleSite/public docs && touch docs/.nojekyll
+	rm -fr docs && $(HUGO) --baseURL https://marcanuy.github.io/hugoostrapped/ --source=exampleSite --themesDir=../.. && mv exampleSite/public docs && touch docs/.nojekyll

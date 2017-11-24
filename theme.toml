@@ -1,13 +1,13 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Hugo Bootstrap Starter Template"
+name = "Hugoostrapped"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+licenselink = "https://github.com/marcanuy/hugoostrapped/blob/master/LICENSE.md"
 description = "Use this theme as a way to quickly start any new Hugo website using Bootstrap. All you get is Bootstrap and an HTML 5 document."
-homepage = "https://github.com/marcanuy/hugo-bootstrap-starter-template"
-tags = [hugo, hugo-theme, template]
-features = [bootstrap]
+homepage = "https://github.com/marcanuy/hugoostrapped"
+tags = [hugo, hugo-theme, template, bootstrap]
+features = [bootstrap, responsive]
 min_version = "0.31"
 
 [author]
@@ -17,5 +17,5 @@ min_version = "0.31"
 # If porting an existing theme
 [original]
   name = "@mdo and @fat"
-  homepage = "https://getbootstrap.com/docs/4.0/examples/starter-template/"
+  homepage = "https://getbootstrap.com/docs/4.0/examples/"
   repo = "https://github.com/twbs/bootstrap/"

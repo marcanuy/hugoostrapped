@@ -3,32 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://marcanuy.github.io/hugo-bootstrap-examples-theme/categories/</loc>
+    <loc>https://marcanuy.github.io/hugoostrapped/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://marcanuy.github.io/hugo-bootstrap-examples-theme/</loc>
+    <loc>https://marcanuy.github.io/hugoostrapped/</loc>
   </url>
   
   <url>
-    <loc>https://marcanuy.github.io/hugo-bootstrap-examples-theme/about/</loc>
+    <loc>https://marcanuy.github.io/hugoostrapped/about/</loc>
   </url>
   
   <url>
-    <loc>https://marcanuy.github.io/hugo-bootstrap-examples-theme/jumbotron/</loc>
+    <loc>https://marcanuy.github.io/hugoostrapped/jumbotron/</loc>
   </url>
   
   <url>
-    <loc>https://marcanuy.github.io/hugo-bootstrap-examples-theme/narrow-jumbotron/</loc>
+    <loc>https://marcanuy.github.io/hugoostrapped/narrow-jumbotron/</loc>
   </url>
   
   <url>
-    <loc>https://marcanuy.github.io/hugo-bootstrap-examples-theme/starter-template/</loc>
+    <loc>https://marcanuy.github.io/hugoostrapped/starter-template/</loc>
   </url>
   
   <url>
-    <loc>https://marcanuy.github.io/hugo-bootstrap-examples-theme/tags/</loc>
+    <loc>https://marcanuy.github.io/hugoostrapped/tags/</loc>
     <priority>0</priority>
   </url>
   
