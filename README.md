@@ -1,7 +1,7 @@
 ![logo](https://github.com/marcanuy/hugoostrapped/blob/master/images/logo.png)
 
-Hugo bootstrap examples theme
-====================================
+Hugo + bootstrap theme
+===========================
 
 [Hugo](https://gohugo.io) [theme](https://gohugo.io/themes/) based on
 the [Bootstrap starter
