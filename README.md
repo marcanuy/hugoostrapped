@@ -1,6 +1,6 @@
 ![logo](https://github.com/marcanuy/hugoostrapped/blob/master/images/logo.png)
 
-Hugo + bootstrap theme
+Hugo + Bootstrap theme
 ===========================
 
 [Hugo](https://gohugo.io) [theme](https://gohugo.io/themes/) based on
@@ -13,7 +13,9 @@ Hugo, it focus on offering a quick way to have Bootstrap in your
 Hugo site with:
 
 - a clean setup and
-- the ability to customize [Bootstrap variables](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss).
+- the ability to customize [Bootstrap
+  variables](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss).
+- Shortcodes Bootstrap components
 
 <https://marcanuy.github.io/hugo-bootstrap-examples-theme/>.
 
