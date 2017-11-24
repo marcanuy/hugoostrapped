@@ -1,4 +1,4 @@
-![logo](https://marcanuy.github.io/hugoostrapped/images/logo.png)
+![logo](https://github.com/marcanuy/hugoostrapped/blob/master/images/logo.png)
 
 Hugo bootstrap examples theme
 ====================================
